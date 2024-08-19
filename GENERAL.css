@@ -18,7 +18,7 @@
   --kerykeion-color-warning: #f4bf50;
   --kerykeion-color-error: #fb7085;
 
-    /* Zodiac Sign Segments */
+  /* Zodiac */
   --kerykeion-color-base-200: #0a1020;
   --kerykeion-color-base-300: #27303c;
 
@@ -52,12 +52,8 @@
   --kerykeion-chart-color-zodiac-transit-ring-1: var(--kerykeion-color-neutral);
   --kerykeion-chart-color-zodiac-transit-ring-2: var(--kerykeion-color-neutral);
   --kerykeion-chart-color-zodiac-transit-ring-3: var(--kerykeion-color-neutral);
-  --kerykeion-chart-color-houses-radix-line: var(
-    --kerykeion-color-base-content
-  );
-  --kerykeion-chart-color-houses-transit-line: var(
-    --kerykeion-color-base-content
-  );
+  --kerykeion-chart-color-houses-radix-line: var(--kerykeion-color-base-content);
+  --kerykeion-chart-color-houses-transit-line: var(--kerykeion-color-base-content);
 
   /* Aspects */
   --kerykeion-chart-color-conjunction: var(--kerykeion-color-success);
@@ -69,8 +65,8 @@
   --kerykeion-chart-color-trine: var(--kerykeion-color-success);
   --kerykeion-chart-color-sesquiquadrate: var(--kerykeion-color-error);
   --kerykeion-chart-color-biquintile: var(--kerykeion-color-secondary);
-  --kerykeion-chart-color-quincunx: --kerykeion-color-secondary
-    --kerykeion-chart-color-opposition: var(--kerykeion-color-error);
+  --kerykeion-chart-color-quincunx: var(--kerykeion-color-secondary);
+  --kerykeion-chart-color-opposition: var(--kerykeion-color-error);
 
   /* Planets */
   --kerykeion-chart-color-sun: var(--kerykeion-color-warning);
